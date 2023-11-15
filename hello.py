@@ -159,3 +159,69 @@
 # if a < b:
 #     print("두번째로 입력했던 {}가 {}보다 더 큽니다.".format(b, a))
 
+
+# list_a = [1, 2, 3]
+# list_b = [4, 5, 6]
+
+# print("# 리스트")
+# print("list_a = ", list_a)
+# print("list_b = ", list_b)
+# print()
+
+# print("# 리스트 기본 연산자")
+# print("list_a + list_b = ", list_a + list_b)
+# print("list_a * 3 = ", list_a * 3)
+# print()
+
+# print("# 길이 구하기")
+# print("len(list_a) = ", len(list_a))
+
+# list_a = [1, 2, 3]
+
+# print("# 리스트 뒤에 요소 추가하기")
+# list_a.append(4)
+# list_a.append(5)
+# print(list_a)
+# print()
+
+# print("# 리스트 중간에 요소 추가하기")
+# list_a.insert(0, 10)
+# print(list_a)
+
+
+# list_a = [0, 1, 2, 3, 4, 5]
+# print("# 리스트의 요소 하나 제거하기")
+
+# del list_a[1]
+# print("del list_a[1]:", list_a)
+
+# list_a.pop(2)
+# print("pop(2): ", list_a)
+
+# list_c = [1, 2, 1, 2]
+# list_c.remove(2)
+# print(list_c)
+
+# list_a = [273, 32, 103, 57, 52]
+# print(273 not in list_a)
+
+# for i in range(100):
+#     print("출력")
+
+# array = [273, 32, 103, 57, 52]
+
+# for element in array:
+#     print(element)
+
+list_of_list = [
+    [1, 2, 3], 
+    [4, 5, 6, 7], 
+    [8, 9]
+]
+
+# for items in list_of_list:
+#     print(items)
+
+for items in list_of_list:
+    for item in items:
+        print(items)
