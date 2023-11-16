@@ -352,4 +352,35 @@
 
 # print("#단순출력")
 
-import datetime
+# import datetime
+# pi_day = datetime.datetime(2020, 3, 14)
+# print(pi_day)
+# # print(type(pi_day))
+# import datetime
+
+# today = datetime.datetime.now()
+# pi_day = datetime.datetime(2020, 3, 14, 13, 6, 15)
+# print(today - pi_day)
+# print(type(today-pi_day))
+
+# name = input("이름을 입력하세요: ")
+# print(name)
+
+# import random
+# random_num = random.randrange(1,20)
+# count = 4
+# while count > 0:
+#     input_num = int(input("기회가 {}번 남았습니다. 1-20 사이의 숫자를 맞혀 보세요:".format(count)))
+#     if random_num > input_num:
+#         print("Up")
+#     elif random_num < input_num:
+#         print("Down")
+#     else:
+#         print("축하합니다. {}번만에 숫자를 맞히셨습니다.".format(5-count))
+#         break
+#     count -= 1
+#     if count == 0:
+#         print("아쉽습니다. 정답은 {}였습니다.".format(random_num))
+
+
+    
