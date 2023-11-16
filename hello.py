@@ -213,15 +213,143 @@
 # for element in array:
 #     print(element)
 
-list_of_list = [
-    [1, 2, 3], 
-    [4, 5, 6, 7], 
-    [8, 9]
-]
+# list_of_list = [
+#     [1, 2, 3], 
+#     [4, 5, 6, 7], 
+#     [8, 9]
+# ]
+
+# # for items in list_of_list:
+# #     print(items)
 
 # for items in list_of_list:
-#     print(items)
+#     for item in items:
+#         print(items)
 
-for items in list_of_list:
-    for item in items:
-        print(items)
+# array = [273, 32, 103, 57, 52]
+
+# for elemet in array:
+#     print(elemet)
+
+# list_of_list = [
+#     [1, 2, 3],
+#     [4, 5, 6, 7],
+#     [8, 9]
+# ]
+
+# for items in list_of_list:
+#     for item in items:
+#         print(items)
+
+# dictionary = {
+#     "name": "7D 건조 망고",
+#     "type": "당절임",
+#     "ingredient": ["망고", "설탕", "메타중아황산나트륨", "치자황색소"],
+#     "origin":"필리핀"
+# }
+
+# print("name: ", dictionary["name"])
+# print("type: ", dictionary["type"])
+# print("ingredient: ", dictionary["ingredient"])
+# print("origin: ", dictionary["origin"])
+# print()
+
+# dictionary["name"] = "8D 건조 망고"
+# print("name:", dictionary["name"])
+
+
+# dictionary = {}
+
+# print("요소 추가 이전:", dictionary)
+
+# dictionary["name"] = "새로운이름"
+# dictionary["head"] = "새로운 정신"
+# dictionary["body"] = "새로운 몸"
+
+# print("요소 추가 이후:", dictionary)
+ 
+# dictionary = {
+#     "name": "7D 건조 망고",
+#     "type": "당절임"
+#     "ingredient": ["망고", "설탕", ""]
+# } 
+
+# for i in range(5):
+#     print(str(i) + "=반복 변수")
+# print()
+
+# for i in range(5, 10):
+#     print(str(i) + "=반복 변수")
+# print()
+
+# for i in range(0, 10, 3):
+#     print(str(i) + "= 반복변수")
+# print()
+
+
+# array = [273, 32, 103, 57, 52]
+
+# for i in range(len(array)):
+#     print("{}번째 반복: {}".format(i, array[i]))
+
+
+# for i in range(4, 0-1, -1):
+#     print("현재 반복 변수: {}".format(i))
+
+# output=""
+
+# for i in range(1, 10):
+#     for j in range(0, i):
+#         output += "*"
+#     output += "\n"
+
+# print(output)
+
+# output =""
+
+# for i in range(1, 15):
+#     for j in range(14, i, -1):
+#         output += ' '
+#     for k in range(0, 2*i-1):
+#         output += '*'
+#     output += '\n'
+
+# print(output)
+
+
+# i = 0
+# while i <10:
+#     print("{}번째 반복입니다.".format(i))
+#     i+=1
+
+# list_test = [1, 2, 1, 2]
+# value = 2
+
+# while value in list_test:
+#     list_test.remove(value)
+
+# print(list_test)
+
+# import time
+# number = 0
+# target_tick = time.time() + 5
+# while time.time() < target_tick:
+#     number +=1
+
+# print("5초 동안 {}번 반복했습니다.".format(number))
+
+# i = 0
+
+# while True:
+#     print("{}번째 반복문입니다.".format(i))
+#     i = i+1
+#     input_text = input(">종료하시겠습니까?(y/n): ")
+#     if input_text in["y", "Y"]:
+#         print("반복을 종료합니다.")
+#         break
+
+# example_list = ["요소A", "요소B", "요소C"]
+
+# print("#단순출력")
+
+import datetime
