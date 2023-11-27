@@ -73,3 +73,51 @@
 # print(result)
 
 
+# n = input()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# n = input()
+
+# a = n[0]
+
+# result = 1
+
+# for i in range(1, len(n)):
+#     if a <= '1' or n[i] <= '1':
+#         result += int(n[i])
+#     else:
+#         result *= int(n[i])
+
+# print(result)
+
+
+# data = input()
+
+# result = int(data[0])
+
+# for i in range(1, len(data)):
+#     num=int(data[i])
+#     if num <= 1 or result <= 1:
+#         result += num
+#     else:
+#         result *= num
+
+# print(result)
+
+
+
